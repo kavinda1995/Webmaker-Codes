@@ -10,9 +10,9 @@
 	//checking the username and password is correct
 
 	if ($username == "admin" && $password == "123"){
-		echo "Hello Admin";
+		echo "<center><h1>Hello Admin</h1></center>";
 	}
 	else{
-		echo "Username or Password incorrect";
+		echo "<center><h1>Username or Password incorrect</h1></center>";
 	}
 ?>
